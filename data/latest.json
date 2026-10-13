@@ -1,8 +1,36 @@
 {
-  "date": null,
-  "generated_at": null,
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T13:59:25.996292+00:00",
   "sections": {
-    "global": [],
-    "ai": []
+    "global": [
+      {
+        "title": "Government spent millions on Trump ads. And, federal agents raid Ilhan Omar's home",
+        "source": "NPR",
+        "url": "https://www.npr.org/2026/10/13/g-s1-147822/up-first-newsletter-trump-ads-funding-campaign-rallies-ilhan-omar",
+        "published_at": "2026-10-13T11:08:14+00:00",
+        "checked_at": "2026-10-13T13:59:25.996292+00:00",
+        "corroboration": {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-13T10:37:39+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ],
+    "ai": [
+      {
+        "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+        "published_at": "2026-10-13T12:23:42+00:00",
+        "checked_at": "2026-10-13T13:59:25.996292+00:00",
+        "corroboration": {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+          "published_at": "2026-10-13T10:32:23+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ]
   }
 }
