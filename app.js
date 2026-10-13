@@ -13,7 +13,7 @@ function renderSection(kind, items) {
     const top = node("div", "card-top"); top.append(node("span", "", labels[kind]), node("span", "", time(item.published_at))); card.append(top);
     const heading = node("h3"); heading.append(link(item.url, item.title)); card.append(heading);
     card.append(node("p", "", `原文：${item.source} · 核查：${time(item.checked_at)}`));
-    const sources = node("div", "source-row"); sources.append(link(item.url, "阅读原文 ↗"), link(item.corroboration.url, `交叉来源：${item.corroboration.source} ↗`)); card.append(sources);
+    const sources = node("div", "source-row"); sources.append(link(item.url, "阅读原文 ↗"), link(item.corroboration.url, `交叉来源：${item.corroboration.source} · ${time(item.corroboration.published_at)} ↗`)); card.append(sources);
     card.append(node("p", "uncertainty", `核查边界：${item.uncertainty}`)); root.append(card);
   }
 }
