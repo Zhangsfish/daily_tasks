@@ -53,6 +53,23 @@ class CollectorTests(unittest.TestCase):
             collect.publish(good, root)
             self.assertEqual(json.loads((root / "archive/index.json").read_text(encoding="utf-8")), ["2026-10-13"])
 
+    def test_full_collection_with_two_independent_sources_per_section(self):
+        headline = "World leaders agree landmark climate finance deal"
+        ai_headline = "Researchers release powerful open model for developers"
+
+        def fake_fetch(url):
+            section = "global" if "bbc" in url or "guardian" in url or "npr" in url else "ai"
+            title = headline if section == "global" else ai_headline
+            hosts = {"BBC News": "bbc.co.uk", "The Guardian": "theguardian.com", "NPR": "npr.org", "TechCrunch": "techcrunch.com", "The Verge": "theverge.com", "VentureBeat": "venturebeat.com"}
+            source = next(name for feeds in collect.SOURCES.values() for name, feed, _ in feeds if feed == url)
+            xml = f"<rss><channel><item><title>{title}</title><link>https://{hosts[source]}/article</link><pubDate>Mon, 12 Oct 2026 23:00:00 GMT</pubDate></item></channel></rss>"
+            return xml.encode(), url, "application/rss+xml"
+
+        result = collect.collect(NOW, fetch=fake_fetch, verify=lambda _: True)
+        self.assertEqual(result["date"], "2026-10-13")
+        self.assertGreaterEqual(len(result["sections"]["global"]), 1)
+        self.assertGreaterEqual(len(result["sections"]["ai"]), 1)
+
 
 if __name__ == "__main__":
     unittest.main()

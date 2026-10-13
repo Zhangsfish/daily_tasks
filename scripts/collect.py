@@ -162,27 +162,41 @@ def verify_article(story: Story) -> bool:
 def collect(now: datetime, fetch=request_bytes, verify=verify_article) -> dict:
     sections = {}
     errors = []
+    diagnostics = {}
     for section, feeds in SOURCES.items():
         candidates = []
+        feed_counts = {}
         for source, feed_url, hosts in feeds:
             try:
                 data, final_url, _ = fetch(feed_url)
                 if not host_allowed(final_url, (urlparse(feed_url).hostname or "",)):
                     raise ValueError("feed redirected to unapproved host")
-                candidates.extend(parse_feed(data, section, source, hosts, now))
+                stories = parse_feed(data, section, source, hosts, now)
+                feed_counts[source] = len(stories)
+                candidates.extend(stories)
             except (OSError, ValueError, ET.ParseError) as error:
+                feed_counts[source] = 0
                 errors.append(f"{source}: {type(error).__name__}: {error}")
         candidates.sort(key=lambda story: story.published_at, reverse=True)
         chosen = []
         used_urls = set()
+        verified_urls = {}
+        title_pairs = 0
+        reachable_pairs = 0
         for first in candidates:
             if first.url in used_urls:
                 continue
             for second in candidates:
                 if second.url in used_urls or not corroborates(first, second):
                     continue
-                if not verify(first) or not verify(second):
+                title_pairs += 1
+                if first.url not in verified_urls:
+                    verified_urls[first.url] = verify(first)
+                if second.url not in verified_urls:
+                    verified_urls[second.url] = verify(second)
+                if not verified_urls[first.url] or not verified_urls[second.url]:
                     continue
+                reachable_pairs += 1
                 chosen.append({
                     "title": first.title,
                     "source": first.source,
@@ -197,8 +211,9 @@ def collect(now: datetime, fetch=request_bytes, verify=verify_article) -> dict:
             if len(chosen) >= 4:
                 break
         sections[section] = chosen
+        diagnostics[section] = {"feed_entries": feed_counts, "matching_title_pairs": title_pairs, "verified_article_pairs": reachable_pairs}
     if not sections["global"] or not sections["ai"]:
-        raise RuntimeError(f"verification gate failed: global={len(sections['global'])}, ai={len(sections['ai'])}; feed errors: {'; '.join(errors) or 'none'}")
+        raise RuntimeError(f"verification gate failed: global={len(sections['global'])}, ai={len(sections['ai'])}; diagnostics: {json.dumps(diagnostics, ensure_ascii=False)}; feed errors: {'; '.join(errors) or 'none'}")
     return {"date": now.astimezone(BEIJING).date().isoformat(), "generated_at": now.isoformat(), "sections": sections}
 
 
