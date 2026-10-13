@@ -37,6 +37,14 @@ jobs:
           python-version: '3.12'
       - name: Check publication gate
         run: python -m unittest discover -s tests -v
+      - name: Diagnose live sources without publishing news
+        run: |
+          mkdir -p ops
+          set +e
+          python scripts/collect.py --dry-run > ops/source-check.txt 2>&1
+          result=$?
+          set -e
+          printf 'Dry-run exit status: %s\n' "$result" >> ops/source-check.txt
       - name: Record hosted repository write
         run: |
           mkdir -p ops
@@ -53,7 +61,7 @@ jobs:
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add ops/automation-check.json
+          git add ops/automation-check.json ops/source-check.txt
           git commit -m 'Record hosted write check'
           git push origin HEAD:main
       - uses: actions/configure-pages@v5
