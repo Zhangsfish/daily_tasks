@@ -17,6 +17,8 @@ python3 -m http.server 8000
 
 首次发布需在 GitHub 仓库 **Settings → Pages → Build and deployment** 将 Source 设为 **GitHub Actions**；仓库 Actions 权限须允许工作流写入内容和 Pages。站点地址通常为 `https://zhangsfish.github.io/daily_tasks/`，以 Pages 设置页显示的实际地址为准。工作流的 `schedule` 由 GitHub 托管，可能延迟；若未达到核查门槛，网页继续展示最后一次已核查的归档，而非未经证实的新内容。
 
+`.github/workflows/bootstrap.yml` 在网站代码变化时运行一次独立的托管检查：执行测试、把运行记录写入 `ops/automation-check.json` 并部署当前站点。这个记录只证明 GitHub Actions 有写入与部署能力，不代表当天新闻已通过核查；新闻发布仍必须通过上面的每日工作流。
+
 ## 采集与核查规则
 
 公开规则见 [skills/news-collection/SKILL.md](skills/news-collection/SKILL.md)。每条展示原文来源、发布时间、核查时间、第二独立来源和不确定性说明。本站只引用原文标题，不自动编造摘要或推断结论。两家媒体标题相似只能交叉印证报道主题，不能证明所有细节；页面会明确标注此限制。
