@@ -1,2 +1,2 @@
-Collection stopped; no new edition published: verification gate failed: global=0, ai=0; feed errors: VentureBeat: HTTPError: HTTP Error 429: Too Many Requests
+Collection stopped; no new edition published: verification gate failed: global=0, ai=0; diagnostics: {"global": {"feed_entries": {"BBC News": 23, "The Guardian": 36, "NPR": 10}, "matching_title_pairs": 0, "verified_article_pairs": 0}, "ai": {"feed_entries": {"TechCrunch": 15, "The Verge": 5, "VentureBeat": 0}, "matching_title_pairs": 0, "verified_article_pairs": 0}}; feed errors: VentureBeat: HTTPError: HTTP Error 429: Too Many Requests
 Dry-run exit status: 1
