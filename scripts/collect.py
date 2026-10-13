@@ -59,6 +59,12 @@ def host_allowed(url: str, hosts: tuple[str, ...]) -> bool:
     return parsed.scheme == "https" and bool(host) and any(host == allowed or host.endswith("." + allowed) for allowed in hosts)
 
 
+def single_topic(url: str, title: str) -> bool:
+    """Reject roundups whose headline may contain several unrelated claims."""
+    path = urlparse(url).path.lower()
+    return "newsletter" not in path and "roundup" not in path and not re.search(r"[.!?]\s+and[,\s]", title, re.I)
+
+
 def request_bytes(url: str, limit: int = MAX_BYTES) -> tuple[bytes, str, str]:
     with urlopen(Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/atom+xml, text/html;q=0.8"}), timeout=TIMEOUT) as response:
         data = response.read(limit + 1)
@@ -101,7 +107,7 @@ def parse_feed(data: bytes, section: str, source: str, hosts: tuple[str, ...], n
                     url = child.attrib.get("href", "")
                     break
         published = parse_date(child_text(entry, ("pubdate", "published", "updated", "date")))
-        if title and url and host_allowed(url, hosts) and published and timedelta(0) <= now - published <= MAX_AGE:
+        if title and url and single_topic(url, title) and host_allowed(url, hosts) and published and timedelta(0) <= now - published <= MAX_AGE:
             stories.append(Story(section, source, title, url, published, hosts))
     return stories
 

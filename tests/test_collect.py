@@ -32,6 +32,10 @@ class CollectorTests(unittest.TestCase):
         xml = b"<rss><channel><item><title>Example event</title><link>https://bbc.com/one</link><pubDate>Tue, 13 Oct 2026 00:01:00 GMT</pubDate></item><item><title>No date</title><link>https://bbc.com/two</link></item></channel></rss>"
         self.assertEqual(collect.parse_feed(xml, "global", "BBC", ("bbc.com",), NOW), [])
 
+    def test_newsletter_with_multiple_claims_is_rejected(self):
+        xml = b"<rss><channel><item><title>Government spent millions on ads. And, agents raid a home</title><link>https://npr.org/2026/10/13/up-first-newsletter-story</link><pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate></item></channel></rss>"
+        self.assertEqual(collect.parse_feed(xml, "global", "NPR", ("npr.org",), NOW), [])
+
     def test_failed_verification_leaves_existing_snapshot_unchanged(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
