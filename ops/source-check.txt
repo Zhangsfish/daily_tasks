@@ -1,0 +1,2 @@
+Collection stopped; no new edition published: verification gate failed: global=0, ai=0; feed errors: VentureBeat: HTTPError: HTTP Error 429: Too Many Requests
+Dry-run exit status: 1
