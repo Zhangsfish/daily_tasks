@@ -13,7 +13,7 @@ python3 -m http.server 8000
 
 ## 自动更新与发布
 
-`.github/workflows/daily.yml` 每天北京时间 07:30（UTC 23:30）运行，也可以手动触发。采集成功且两个栏目都有经交叉核查的条目时，工作流才更新 `data/latest.json`、`archive/YYYY-MM-DD.json` 和 `archive/index.json`，随后提交至 `main`，并在同一工作流部署 Pages。采集或核查失败时以非零状态退出，不修改数据文件，也不部署。
+`.github/workflows/daily.yml` 每天北京时间 07:30（UTC 23:30）运行，也可以手动触发；采集代码或工作流变更时也运行一次。采集成功且两个栏目都有经交叉核查的条目时，工作流才更新 `data/latest.json`、`archive/YYYY-MM-DD.json` 和 `archive/index.json`，随后提交至 `main`，并在同一工作流部署 Pages。采集或核查失败时以非零状态退出，不修改数据文件，也不部署。
 
 首次发布需在 GitHub 仓库 **Settings → Pages → Build and deployment** 将 Source 设为 **GitHub Actions**；仓库 Actions 权限须允许工作流写入内容和 Pages。站点地址通常为 `https://zhangsfish.github.io/daily_tasks/`，以 Pages 设置页显示的实际地址为准。工作流的 `schedule` 由 GitHub 托管，可能延迟；若未达到核查门槛，网页继续展示最后一次已核查的归档，而非未经证实的新内容。
 
