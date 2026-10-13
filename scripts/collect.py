@@ -178,6 +178,18 @@ def collect(now: datetime, fetch=request_bytes, verify=verify_article) -> dict:
                 feed_counts[source] = 0
                 errors.append(f"{source}: {type(error).__name__}: {error}")
         candidates.sort(key=lambda story: story.published_at, reverse=True)
+        pair_scores = []
+        for index, left in enumerate(candidates):
+            for right in candidates[index + 1:]:
+                if left.source == right.source or abs(left.published_at - right.published_at) > timedelta(hours=36):
+                    continue
+                left_words, right_words = tokens(left.title), tokens(right.title)
+                if not left_words or not right_words:
+                    continue
+                common = len(left_words & right_words)
+                jaccard = common / len(left_words | right_words)
+                sequence = SequenceMatcher(None, left.title.lower(), right.title.lower()).ratio()
+                pair_scores.append((round(jaccard, 2), common, round(sequence, 2)))
         chosen = []
         used_urls = set()
         verified_urls = {}
@@ -211,7 +223,7 @@ def collect(now: datetime, fetch=request_bytes, verify=verify_article) -> dict:
             if len(chosen) >= 4:
                 break
         sections[section] = chosen
-        diagnostics[section] = {"feed_entries": feed_counts, "matching_title_pairs": title_pairs, "verified_article_pairs": reachable_pairs}
+        diagnostics[section] = {"feed_entries": feed_counts, "top_pair_scores": sorted(pair_scores, reverse=True)[:5], "matching_title_pairs": title_pairs, "verified_article_pairs": reachable_pairs}
     if not sections["global"] or not sections["ai"]:
         raise RuntimeError(f"verification gate failed: global={len(sections['global'])}, ai={len(sections['ai'])}; diagnostics: {json.dumps(diagnostics, ensure_ascii=False)}; feed errors: {'; '.join(errors) or 'none'}")
     return {"date": now.astimezone(BEIJING).date().isoformat(), "generated_at": now.isoformat(), "sections": sections}
