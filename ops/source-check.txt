@@ -1,2 +1,2 @@
-Verified 2026-10-13: global=1, ai=1
-Dry-run exit status: 0
+Collection stopped; no new edition published: verification gate failed: global=0, ai=1; diagnostics: {"global": {"feed_entries": {"BBC News": 23, "The Guardian": 36, "NPR": 8}, "top_pair_scores": [[0.18, 3, 0.47], [0.18, 3, 0.37], [0.14, 3, 0.25], [0.12, 3, 0.38], [0.12, 2, 0.41]], "matching_title_pairs": 0, "verified_article_pairs": 0}, "ai": {"feed_entries": {"TechCrunch": 15, "The Verge": 6, "VentureBeat": 0}, "top_pair_scores": [[0.38, 3, 0.59], [0.18, 2, 0.4], [0.08, 1, 0.46], [0.08, 1, 0.36], [0.0, 0, 0.39]], "matching_title_pairs": 1, "verified_article_pairs": 1}}; feed errors: VentureBeat: HTTPError: HTTP Error 429: Too Many Requests
+Dry-run exit status: 1
