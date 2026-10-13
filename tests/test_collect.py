@@ -36,6 +36,12 @@ class CollectorTests(unittest.TestCase):
         xml = b"<rss><channel><item><title>Government spent millions on ads. And, agents raid a home</title><link>https://npr.org/2026/10/13/up-first-newsletter-story</link><pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate></item></channel></rss>"
         self.assertEqual(collect.parse_feed(xml, "global", "NPR", ("npr.org",), NOW), [])
 
+    def test_global_section_excludes_routine_entertainment_and_local_accidents(self):
+        self.assertFalse(collect.relevant_to_section("global", "Breaking Bad actor RJ Mitte dies aged 34"))
+        self.assertFalse(collect.relevant_to_section("global", "One dead after rollercoaster incident"))
+        self.assertTrue(collect.relevant_to_section("global", "Leaders agree on climate treaty"))
+        self.assertTrue(collect.relevant_to_section("ai", "AI actor model released"))
+
     def test_failed_verification_leaves_existing_snapshot_unchanged(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)

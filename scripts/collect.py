@@ -68,6 +68,12 @@ def single_topic(url: str, title: str) -> bool:
     return "newsletter" not in path and "roundup" not in path and not re.search(r"[.!?]\s+and[,\s]", title, re.I)
 
 
+def relevant_to_section(section: str, title: str) -> bool:
+    if section != "global":
+        return True
+    return not re.search(r"\b(actor|actress|celebrity|singer|roller\s?coaster|six flags|tv show|film star)\b", title, re.I)
+
+
 def request_bytes(url: str, limit: int = MAX_BYTES) -> tuple[bytes, str, str]:
     with urlopen(Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/rss+xml, application/atom+xml, text/html;q=0.8"}), timeout=TIMEOUT) as response:
         data = response.read(limit + 1)
@@ -110,7 +116,7 @@ def parse_feed(data: bytes, section: str, source: str, hosts: tuple[str, ...], n
                     url = child.attrib.get("href", "")
                     break
         published = parse_date(child_text(entry, ("pubdate", "published", "updated", "date")))
-        if title and url and single_topic(url, title) and host_allowed(url, hosts) and published and timedelta(0) <= now - published <= MAX_AGE:
+        if title and url and single_topic(url, title) and relevant_to_section(section, title) and host_allowed(url, hosts) and published and timedelta(0) <= now - published <= MAX_AGE:
             stories.append(Story(section, source, title, url, published, hosts))
     return stories
 
