@@ -1,8 +1,75 @@
 {
-  "date": null,
-  "generated_at": null,
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T14:03:01.627942+00:00",
   "sections": {
-    "global": [],
-    "ai": []
+    "global": [
+      {
+        "title": "Pope Leo admitted to hospital for operation to remove growth on lung",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/13/pope-leo-hospital-operation-growth-lung",
+        "published_at": "2026-10-13T13:28:39+00:00",
+        "checked_at": "2026-10-13T14:03:01.627942+00:00",
+        "corroboration": {
+          "source": "DW",
+          "url": "https://www.dw.com/en/pope-leo-in-rome-hospital-for-lung-surgery/a-79647264?maca=en-rss-en-all-1573-rdf",
+          "published_at": "2026-10-13T07:51:00+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Trump’s diesel deal opens a new rift with Europe over Ukraine",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/13/trumps-diesel-deal-opens-a-new-rift-with-europe-over-ukraine?traffic_source=rss",
+        "published_at": "2026-10-13T13:06:42+00:00",
+        "checked_at": "2026-10-13T14:03:01.627942+00:00",
+        "corroboration": {
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
+          "published_at": "2026-10-13T08:44:19+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "One dead and several hurt after rollercoaster incident at Six Flags",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-13T10:28:07+00:00",
+        "checked_at": "2026-10-13T14:03:01.627942+00:00",
+        "corroboration": {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/13/one-dead-after-roller-coaster-incident-in-george-us?traffic_source=rss",
+          "published_at": "2026-10-13T09:56:59+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Breaking Bad actor RJ Mitte dies aged 34",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cmn045en7d88o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-13T08:03:34+00:00",
+        "checked_at": "2026-10-13T14:03:01.627942+00:00",
+        "corroboration": {
+          "source": "DW",
+          "url": "https://www.dw.com/en/breaking-bad-actor-and-disability-advocate-rj-mitte-dies/a-79646725?maca=en-rss-en-all-1573-rdf",
+          "published_at": "2026-10-13T01:00:00+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ],
+    "ai": [
+      {
+        "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+        "published_at": "2026-10-13T12:23:42+00:00",
+        "checked_at": "2026-10-13T14:03:01.627942+00:00",
+        "corroboration": {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+          "published_at": "2026-10-13T10:32:23+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ]
   }
 }
