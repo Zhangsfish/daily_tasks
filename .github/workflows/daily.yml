@@ -1,0 +1,59 @@
+name: Verify and publish daily briefing
+
+on:
+  schedule:
+    - cron: '30 23 * * *' # 07:30 Asia/Shanghai
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-briefing
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    outputs:
+      commit: ${{ steps.commit.outputs.commit }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify collector rules
+        run: python -m unittest discover -s tests -v
+      - name: Collect and verify sources
+        run: python scripts/collect.py
+      - name: Commit verified edition
+        id: commit
+        run: |
+          if git diff --quiet -- data/latest.json archive/; then
+            echo 'commit=false' >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/latest.json archive/
+          git commit -m "Publish verified briefing $(TZ=Asia/Shanghai date +%F)"
+          git push origin HEAD:main
+          echo 'commit=true' >> "$GITHUB_OUTPUT"
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: update
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
