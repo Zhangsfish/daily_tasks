@@ -124,7 +124,7 @@ def corroborates(first: Story, second: Story) -> bool:
     common = a & b
     jaccard = len(common) / len(a | b)
     sequence = SequenceMatcher(None, first.title.lower(), second.title.lower()).ratio()
-    return len(common) >= 3 and jaccard >= 0.46 and sequence >= 0.55
+    return len(common) >= 3 and jaccard >= 0.28 and sequence >= 0.45
 
 
 class TitleParser(HTMLParser):
