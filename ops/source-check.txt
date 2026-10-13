@@ -1,2 +1,2 @@
-Verified 2026-10-13: global=4, ai=1
+Verified 2026-10-13: global=2, ai=1
 Dry-run exit status: 0
