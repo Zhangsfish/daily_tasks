@@ -62,9 +62,9 @@ class CollectorTests(unittest.TestCase):
         ai_headline = "Researchers release powerful open model for developers"
 
         def fake_fetch(url):
-            section = "global" if "bbc" in url or "guardian" in url or "npr" in url else "ai"
+            section = next(kind for kind, feeds in collect.SOURCES.items() if any(feed == url for _, feed, _ in feeds))
             title = headline if section == "global" else ai_headline
-            hosts = {"BBC News": "bbc.co.uk", "The Guardian": "theguardian.com", "NPR": "npr.org", "TechCrunch": "techcrunch.com", "The Verge": "theverge.com", "VentureBeat": "venturebeat.com"}
+            hosts = {"BBC News": "bbc.co.uk", "The Guardian": "theguardian.com", "NPR": "npr.org", "Al Jazeera": "aljazeera.com", "ABC News": "abcnews.go.com", "DW": "dw.com", "TechCrunch": "techcrunch.com", "The Verge": "theverge.com", "Ars Technica": "arstechnica.com"}
             source = next(name for feeds in collect.SOURCES.values() for name, feed, _ in feeds if feed == url)
             xml = f"<rss><channel><item><title>{title}</title><link>https://{hosts[source]}/article</link><pubDate>Mon, 12 Oct 2026 23:00:00 GMT</pubDate></item></channel></rss>"
             return xml.encode(), url, "application/rss+xml"

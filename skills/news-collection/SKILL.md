@@ -9,8 +9,8 @@ description: Collect and publish a conservative daily global and AI news briefin
 
 ## 来源选择
 
-- 全球新闻：BBC News World、The Guardian World、NPR World。
-- AI 动态：TechCrunch AI、The Verge AI、VentureBeat AI。
+- 全球新闻：BBC News World、The Guardian World、NPR World、Al Jazeera、ABC News International、DW English。
+- AI 动态：TechCrunch AI、The Verge AI、Ars Technica AI。
 - 使用各媒体公开 RSS/Atom；只接受其对应媒体域名的 HTTPS 原文链接。媒体之间须是不同出版方，不能把同一媒体的转载当作第二来源。
 - 这组来源是可审查的初始名单，并不代表观点、地域覆盖或新闻质量完全均衡。新增来源时，先核对其编辑责任、原始链接稳定性、发布日期、访问条款，再修改代码与测试。
 

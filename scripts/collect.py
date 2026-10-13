@@ -34,11 +34,14 @@ SOURCES = {
         ("BBC News", "https://feeds.bbci.co.uk/news/world/rss.xml", ("bbc.co.uk", "bbc.com")),
         ("The Guardian", "https://www.theguardian.com/world/rss", ("theguardian.com",)),
         ("NPR", "https://feeds.npr.org/1004/rss.xml", ("npr.org",)),
+        ("Al Jazeera", "https://www.aljazeera.com/xml/rss/all.xml", ("aljazeera.com",)),
+        ("ABC News", "https://abcnews.go.com/abcnews/internationalheadlines", ("abcnews.go.com",)),
+        ("DW", "https://rss.dw.com/rdf/rss-en-all", ("dw.com",)),
     ],
     "ai": [
         ("TechCrunch", "https://techcrunch.com/category/artificial-intelligence/feed/", ("techcrunch.com",)),
         ("The Verge", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", ("theverge.com",)),
-        ("VentureBeat", "https://venturebeat.com/category/ai/feed/", ("venturebeat.com",)),
+        ("Ars Technica", "https://arstechnica.com/ai/feed/", ("arstechnica.com",)),
     ],
 }
 
