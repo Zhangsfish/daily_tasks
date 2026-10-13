@@ -3,36 +3,85 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f3ed">
-  <meta name="description" content="每日全球新闻与 AI 动态，附原文、时间与核查说明。">
+  <meta name="theme-color" content="#faf9f6">
+  <meta name="description" content="每日全球新闻与 AI 动态。原文可追溯，时间与核查边界清晰可见。">
   <title>每日资讯 · 全球新闻与 AI 动态</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
   <script src="app.js" defer></script>
 </head>
 <body>
-  <div class="topline"></div>
-  <header class="site-header wrap">
-    <a class="brand" href="./" aria-label="每日资讯首页"><span class="brand-mark">日</span><span>每日资讯</span></a>
-    <nav aria-label="主导航"><a href="#global">全球新闻简报</a><a href="#ai">AI 动态</a><a href="#archive">归档</a><a href="skills/news-collection/SKILL.md">采集规则</a></nav>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="masthead wrap">
+      <a class="brand" href="./" aria-label="每日资讯首页">
+        <span class="brand-symbol" aria-hidden="true">日</span>
+        <span class="brand-name">每日资讯<small>THE DAILY BRIEF</small></span>
+      </a>
+      <div class="masthead-note">独立来源 · 清楚标注 · 每日更新</div>
+    </div>
+    <nav class="site-nav wrap" aria-label="主导航">
+      <a href="#global">全球新闻</a>
+      <a href="#ai">AI 动态</a>
+      <a href="#archive">往期归档</a>
+      <a href="article.html?slug=reading-guide">阅读与数据</a>
+      <a href="skills/news-collection/SKILL.md">采集规则</a>
+    </nav>
   </header>
-  <main class="wrap">
-    <section class="hero" aria-labelledby="page-title">
-      <div class="eyebrow">DAILY BRIEFING <span class="dot"></span> 北京时间</div>
-      <h1 id="page-title">把世界读清楚。</h1>
-      <p>两份简报，一次晨读。每条消息都附原文、时间与核查边界。</p>
-      <div class="hero-meta"><span id="edition">正在载入最新一期…</span><span id="updated"></span></div>
-    </section>
-    <div id="notice" class="notice" role="status" hidden></div>
-    <section id="global" class="news-section" aria-labelledby="global-title">
-      <div class="section-heading"><div><span class="section-number">01 / THE WORLD</span><h2 id="global-title">全球新闻简报</h2></div><p>关注影响范围广、可从独立来源交叉印证的国际事件。</p></div>
-      <div id="global-items" class="cards" aria-live="polite"></div>
-    </section>
-    <section id="ai" class="news-section" aria-labelledby="ai-title">
-      <div class="section-heading"><div><span class="section-number">02 / INTELLIGENCE</span><h2 id="ai-title">AI 动态</h2></div><p>产品、研究与政策进展，以可核查的原始报道为准。</p></div>
-      <div id="ai-items" class="cards" aria-live="polite"></div>
-    </section>
-    <section id="archive" class="archive-section" aria-labelledby="archive-title"><div class="section-heading"><div><span class="section-number">PREVIOUS EDITIONS</span><h2 id="archive-title">往期归档</h2></div></div><div id="archive-list" class="archive-list"></div></section>
+
+  <main id="main" class="wrap page-grid">
+    <div class="primary-column">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="overline"><span class="live-dot" aria-hidden="true"></span> DAILY EDITION <span class="overline-rule"></span> 北京时间</div>
+        <h1 id="page-title">每日简报</h1>
+        <p class="intro-description">选取值得追踪的全球新闻与 AI 动态。先看要点，再沿原文追溯。</p>
+        <div class="edition-meta"><span id="edition">正在载入最新一期…</span><span id="updated"></span></div>
+      </section>
+
+      <div id="notice" class="notice" role="status" hidden></div>
+
+      <section id="global" class="news-section" aria-labelledby="global-title">
+        <div class="section-heading"><div><span class="section-kicker">01 / WORLD</span><h2 id="global-title">全球新闻简报</h2></div><span class="section-count" id="global-count"></span></div>
+        <p class="section-description">国际公共事务与跨地区事件，按原文发布时间排列。</p>
+        <div id="global-items" class="story-list" aria-live="polite"></div>
+      </section>
+
+      <section id="ai" class="news-section" aria-labelledby="ai-title">
+        <div class="section-heading"><div><span class="section-kicker">02 / TECHNOLOGY</span><h2 id="ai-title">AI 动态</h2></div><span class="section-count" id="ai-count"></span></div>
+        <p class="section-description">产品、研究与政策进展，以可核查的原始报道为准。</p>
+        <div id="ai-items" class="story-list" aria-live="polite"></div>
+      </section>
+
+      <section id="archive" class="archive-section" aria-labelledby="archive-title">
+        <div class="section-heading"><div><span class="section-kicker">BACK ISSUES</span><h2 id="archive-title">往期归档</h2></div></div>
+        <div id="archive-list" class="archive-list"></div>
+      </section>
+    </div>
+
+    <aside class="sidebar" aria-label="简报说明">
+      <section class="side-block">
+        <span class="side-kicker">AT A GLANCE</span>
+        <h2>本期速览</h2>
+        <div class="side-stat"><span>全球新闻</span><strong id="side-global-count">—</strong></div>
+        <div class="side-stat"><span>AI 动态</span><strong id="side-ai-count">—</strong></div>
+        <p id="side-date" class="side-note">等待简报载入</p>
+      </section>
+      <section class="side-block">
+        <span class="side-kicker">READ MORE</span>
+        <h2>阅读与数据</h2>
+        <div id="notes-list" class="notes-list"><span class="side-note">正在载入…</span></div>
+      </section>
+      <section class="side-block side-method">
+        <span class="side-kicker">OUR METHOD</span>
+        <h2>每条都有出处</h2>
+        <p>我们保留原题，并给出第二家独立媒体的链接。标题交叉印证不等于逐项事实调查，边界会写在每条新闻下方。</p>
+        <a href="skills/news-collection/SKILL.md">查看公开采集规则 <span aria-hidden="true">↗</span></a>
+      </section>
+    </aside>
   </main>
-  <footer class="wrap"><div class="footer-rule"></div><p>保留疑问，追溯原文。自动核查只比较公开报道，不等同于人工事实调查。</p><a href="https://github.com/Zhangsfish/daily_tasks">查看公开代码与方法 ↗</a></footer>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner"><span>每日资讯 · 保留疑问，追溯原文。</span><a href="https://github.com/Zhangsfish/daily_tasks">代码与归档在 GitHub <span aria-hidden="true">↗</span></a></div>
+  </footer>
 </body>
 </html>

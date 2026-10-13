@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf9f6">
+  <meta name="description" content="每日资讯的阅读笔记与数据图表。">
+  <title>阅读与数据 · 每日资讯</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="vendor/markdown-it.min.js" defer></script>
+  <script src="charts.js" defer></script>
+  <script src="article.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="masthead wrap">
+      <a class="brand" href="./" aria-label="每日资讯首页">
+        <span class="brand-symbol" aria-hidden="true">日</span>
+        <span class="brand-name">每日资讯<small>THE DAILY BRIEF</small></span>
+      </a>
+      <div class="masthead-note">独立来源 · 清楚标注 · 每日更新</div>
+    </div>
+    <nav class="site-nav wrap" aria-label="主导航">
+      <a href="./#global">全球新闻</a>
+      <a href="./#ai">AI 动态</a>
+      <a href="./#archive">往期归档</a>
+      <a href="article.html?slug=reading-guide" aria-current="page">阅读与数据</a>
+      <a href="skills/news-collection/SKILL.md">采集规则</a>
+    </nav>
+  </header>
+  <main id="main" class="wrap article-layout">
+    <div class="article-main">
+      <a class="back-link" href="./">← 返回每日简报</a>
+      <header class="article-header">
+        <span class="section-kicker">READING NOTES</span>
+        <h1 id="article-title">正在载入文章…</h1>
+        <p id="article-summary"></p>
+        <div id="article-meta" class="edition-meta"></div>
+      </header>
+      <div id="article-notice" class="notice" role="status" hidden></div>
+      <article id="article-body" class="prose" aria-live="polite"></article>
+    </div>
+    <aside class="sidebar article-sidebar" aria-label="阅读提示">
+      <section class="side-block">
+        <span class="side-kicker">CONTENTS</span>
+        <h2>本页目录</h2>
+        <nav id="article-toc" class="article-toc" aria-label="文章目录"></nav>
+      </section>
+      <section class="side-block side-method">
+        <span class="side-kicker">ABOUT THE DATA</span>
+        <h2>图表可追溯</h2>
+        <p>图表会标注数据来源与口径。自动简报只发布通过核查的报道，不用示例数字填充新闻。</p>
+      </section>
+    </aside>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner"><span>每日资讯 · 保留疑问，追溯原文。</span><a href="https://github.com/Zhangsfish/daily_tasks">代码与归档在 GitHub <span aria-hidden="true">↗</span></a></div>
+  </footer>
+</body>
+</html>

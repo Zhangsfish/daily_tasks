@@ -7,7 +7,13 @@ on:
       - '.github/workflows/**'
       - 'index.html'
       - 'app.js'
+      - 'article.html'
+      - 'article.js'
+      - 'charts.js'
       - 'styles.css'
+      - 'favicon.svg'
+      - 'content/**'
+      - 'vendor/**'
       - 'scripts/**'
       - 'tests/**'
       - 'skills/**'
@@ -37,6 +43,8 @@ jobs:
           python-version: '3.12'
       - name: Check publication gate
         run: python -m unittest discover -s tests -v
+      - name: Check static UI scripts
+        run: node --check app.js && node --check article.js && node --check charts.js
       - name: Diagnose live sources without publishing news
         run: |
           mkdir -p ops
