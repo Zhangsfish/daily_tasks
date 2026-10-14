@@ -1,57 +1,57 @@
 {
   "date": "2026-10-14",
-  "generated_at": "2026-10-14T02:06:01.162959+00:00",
+  "generated_at": "2026-10-14T08:20:56.887740+00:00",
   "sections": {
     "global": [
       {
-        "title": "Violence in Pakistan over emergency rule in Imran Khan stronghold",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/pakistan-khyber-pakhtunkhwa-protests-emergency-rule?traffic_source=rss",
-        "published_at": "2026-10-14T01:56:23+00:00",
-        "checked_at": "2026-10-14T02:06:01.162959+00:00",
+        "title": "Russia arrests Japanese journalist on spying charges",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-14T08:00:03+00:00",
+        "checked_at": "2026-10-14T08:20:56.887740+00:00",
         "corroboration": {
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/10/13/nx-s1-5998798/pakistan-imposes-emergency-rule-in-former-prime-ministers-stronghold",
-          "published_at": "2026-10-13T10:51:33+00:00"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/14/russia-detains-japanese-journalist-suspicion-spying",
+          "published_at": "2026-10-14T01:05:25+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-14T00:17:00+00:00",
-        "checked_at": "2026-10-14T02:06:01.162959+00:00",
+        "title": "Ukrainian soldier to go on trial over sabotage of Nord Stream gas pipelines",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/business/2026/oct/14/ukrainian-soldier-to-go-on-trial-over-sabotage-of-nord-stream-gas-pipelines",
+        "published_at": "2026-10-14T06:00:47+00:00",
+        "checked_at": "2026-10-14T08:20:56.887740+00:00",
         "corroboration": {
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/13/pope-leo-diagnosed-with-cancer-after-surgery-to-remove-part-of-lung?traffic_source=rss",
-          "published_at": "2026-10-13T21:25:04+00:00"
+          "url": "https://www.aljazeera.com/news/2026/10/14/ukrainian-ex-officer-goes-on-trial-in-germany-over-nord-stream-blasts?traffic_source=rss",
+          "published_at": "2026-10-14T03:06:42+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "Ex-gang leader gets 40 years to life for rapper Tupac Shakur’s 1996 murder",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/13/ex-gang-leader-gets-40-years-to-life-for-rapper-tupac-shakurs-1996-murder?traffic_source=rss",
-        "published_at": "2026-10-13T23:42:57+00:00",
-        "checked_at": "2026-10-14T02:06:01.162959+00:00",
-        "corroboration": {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c60rln2jvv2zo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-13T19:51:14+00:00"
-        },
-        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
-      },
-      {
-        "title": "Vatican confirms Pope Leo’s surgery was successful",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/vatican-confirms-pope-leos-surgery-was-successful?traffic_source=rss",
-        "published_at": "2026-10-13T21:05:07+00:00",
-        "checked_at": "2026-10-14T02:06:01.162959+00:00",
+        "title": "Judge extends White House access to banned media outlets CNN, MS Now and Politico",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/oct/14/white-house-media-ban-lifted-cnn-msnow-politico",
+        "published_at": "2026-10-14T04:34:29+00:00",
+        "checked_at": "2026-10-14T08:20:56.887740+00:00",
         "corroboration": {
           "source": "DW",
-          "url": "https://www.dw.com/en/vatican-confirms-pope-leo-underwent-surgery-for-lung-cancer/a-79647264?maca=en-rss-en-all-1573-rdf",
-          "published_at": "2026-10-13T19:50:00+00:00"
+          "url": "https://www.dw.com/en/us-judge-extends-media-outlets-white-house-access/a-79656346?maca=en-rss-en-all-1573-rdf",
+          "published_at": "2026-10-14T03:46:00+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Saudi-born engineer for OpenAI arrested for planting listening bug",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/openai-employee-listening-device-spying-saudi-fozan?traffic_source=rss",
+        "published_at": "2026-10-14T04:16:13+00:00",
+        "checked_at": "2026-10-14T08:20:56.887740+00:00",
+        "corroboration": {
+          "source": "DW",
+          "url": "https://www.dw.com/en/openai-says-employee-caught-planting-listening-device/a-79655491?maca=en-rss-en-all-1573-rdf",
+          "published_at": "2026-10-13T21:24:00+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }
@@ -62,7 +62,7 @@
         "source": "Ars Technica",
         "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
         "published_at": "2026-10-13T17:00:39+00:00",
-        "checked_at": "2026-10-14T02:06:01.162959+00:00",
+        "checked_at": "2026-10-14T08:20:56.887740+00:00",
         "corroboration": {
           "source": "The Verge",
           "url": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
