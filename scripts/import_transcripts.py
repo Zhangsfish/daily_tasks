@@ -79,13 +79,14 @@ def main():
         full_path = source_file(library, item["transcript_markdown"])
         base = f"transcript-{name}"
         has_guide = primary_path != full_path
-        primary, primary_text = entry_for(item, base, primary_path, date, guide=has_guide)
+        primary, primary_text = entry_for(item, base, primary_path, date, guide=has_guide, hidden=has_guide)
         notes.append(primary)
         files[CONTENT / f"{base}.md"] = primary_text
         if has_guide:
             full_slug = f"{base}-full"
-            full, full_text = entry_for(item, full_slug, full_path, date, hidden=True)
+            full, full_text = entry_for(item, full_slug, full_path, date)
             primary["transcript_slug"] = full_slug
+            full["guide_slug"] = base
             notes.append(full)
             files[CONTENT / f"{full_slug}.md"] = full_text
 

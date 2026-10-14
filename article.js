@@ -114,6 +114,12 @@ async function initArticle() {
       full.textContent = "阅读完整文字稿 →";
       actionsElement.append(full);
     }
+    if (note.guide_slug) {
+      const guide = document.createElement("a");
+      guide.href = `article.html?slug=${encodeURIComponent(note.guide_slug)}`;
+      guide.textContent = "阅读快速导读 →";
+      actionsElement.append(guide);
+    }
     noticeElement.textContent = "此页是视频语音转写或人工导读，未逐项核查嘉宾说法。转写可能有同音字、专名和数字错误；关键内容请对照原视频。";
     noticeElement.hidden = false;
     document.querySelector("#article-side-kicker").textContent = "TRANSCRIPT NOTE";

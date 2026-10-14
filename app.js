@@ -112,6 +112,11 @@ async function loadNotes() {
           full.href = `article.html?slug=${encodeURIComponent(note.transcript_slug)}`;
           links.append(full);
         }
+        if (note.guide_slug && /^[a-z0-9-]+$/.test(note.guide_slug)) {
+          const guide = el("a", "", "阅读快速导读 →");
+          guide.href = `article.html?slug=${encodeURIComponent(note.guide_slug)}`;
+          links.append(guide);
+        }
         if (typeof note.source === "string" && note.source.startsWith("https://www.bilibili.com/video/")) {
           const source = el("a", "", "原视频 ↗");
           source.href = note.source;
