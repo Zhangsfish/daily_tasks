@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "generated_at": "2026-10-14T08:20:56.887740+00:00",
+  "generated_at": "2026-10-14T08:30:36.326191+00:00",
   "sections": {
     "global": [
       {
@@ -8,7 +8,7 @@
         "source": "BBC News",
         "url": "https://www.bbc.co.uk/news/articles/cwp9g1el7x9zo?at_medium=RSS&at_campaign=rss",
         "published_at": "2026-10-14T08:00:03+00:00",
-        "checked_at": "2026-10-14T08:20:56.887740+00:00",
+        "checked_at": "2026-10-14T08:30:36.326191+00:00",
         "corroboration": {
           "source": "The Guardian",
           "url": "https://www.theguardian.com/world/2026/oct/14/russia-detains-japanese-journalist-suspicion-spying",
@@ -21,7 +21,7 @@
         "source": "The Guardian",
         "url": "https://www.theguardian.com/business/2026/oct/14/ukrainian-soldier-to-go-on-trial-over-sabotage-of-nord-stream-gas-pipelines",
         "published_at": "2026-10-14T06:00:47+00:00",
-        "checked_at": "2026-10-14T08:20:56.887740+00:00",
+        "checked_at": "2026-10-14T08:30:36.326191+00:00",
         "corroboration": {
           "source": "Al Jazeera",
           "url": "https://www.aljazeera.com/news/2026/10/14/ukrainian-ex-officer-goes-on-trial-in-germany-over-nord-stream-blasts?traffic_source=rss",
@@ -34,7 +34,7 @@
         "source": "The Guardian",
         "url": "https://www.theguardian.com/us-news/2026/oct/14/white-house-media-ban-lifted-cnn-msnow-politico",
         "published_at": "2026-10-14T04:34:29+00:00",
-        "checked_at": "2026-10-14T08:20:56.887740+00:00",
+        "checked_at": "2026-10-14T08:30:36.326191+00:00",
         "corroboration": {
           "source": "DW",
           "url": "https://www.dw.com/en/us-judge-extends-media-outlets-white-house-access/a-79656346?maca=en-rss-en-all-1573-rdf",
@@ -47,7 +47,7 @@
         "source": "Al Jazeera",
         "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/openai-employee-listening-device-spying-saudi-fozan?traffic_source=rss",
         "published_at": "2026-10-14T04:16:13+00:00",
-        "checked_at": "2026-10-14T08:20:56.887740+00:00",
+        "checked_at": "2026-10-14T08:30:36.326191+00:00",
         "corroboration": {
           "source": "DW",
           "url": "https://www.dw.com/en/openai-says-employee-caught-planting-listening-device/a-79655491?maca=en-rss-en-all-1573-rdf",
@@ -62,7 +62,7 @@
         "source": "Ars Technica",
         "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
         "published_at": "2026-10-13T17:00:39+00:00",
-        "checked_at": "2026-10-14T08:20:56.887740+00:00",
+        "checked_at": "2026-10-14T08:30:36.326191+00:00",
         "corroboration": {
           "source": "The Verge",
           "url": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
