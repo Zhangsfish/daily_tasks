@@ -1,46 +1,72 @@
 {
-  "date": "2026-10-13",
-  "generated_at": "2026-10-13T14:05:28.982577+00:00",
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T02:06:01.162959+00:00",
   "sections": {
     "global": [
       {
-        "title": "Pope Leo admitted to hospital for operation to remove growth on lung",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/oct/13/pope-leo-hospital-operation-growth-lung",
-        "published_at": "2026-10-13T13:28:39+00:00",
-        "checked_at": "2026-10-13T14:05:28.982577+00:00",
+        "title": "Violence in Pakistan over emergency rule in Imran Khan stronghold",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/pakistan-khyber-pakhtunkhwa-protests-emergency-rule?traffic_source=rss",
+        "published_at": "2026-10-14T01:56:23+00:00",
+        "checked_at": "2026-10-14T02:06:01.162959+00:00",
         "corroboration": {
-          "source": "DW",
-          "url": "https://www.dw.com/en/pope-leo-in-rome-hospital-for-lung-surgery/a-79647264?maca=en-rss-en-all-1573-rdf",
-          "published_at": "2026-10-13T07:51:00+00:00"
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/10/13/nx-s1-5998798/pakistan-imposes-emergency-rule-in-former-prime-ministers-stronghold",
+          "published_at": "2026-10-13T10:51:33+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "Trump’s diesel deal opens a new rift with Europe over Ukraine",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/13/trumps-diesel-deal-opens-a-new-rift-with-europe-over-ukraine?traffic_source=rss",
-        "published_at": "2026-10-13T13:06:42+00:00",
-        "checked_at": "2026-10-13T14:05:28.982577+00:00",
+        "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-14T00:17:00+00:00",
+        "checked_at": "2026-10-14T02:06:01.162959+00:00",
         "corroboration": {
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
-          "published_at": "2026-10-13T08:44:19+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/13/pope-leo-diagnosed-with-cancer-after-surgery-to-remove-part-of-lung?traffic_source=rss",
+          "published_at": "2026-10-13T21:25:04+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Ex-gang leader gets 40 years to life for rapper Tupac Shakur’s 1996 murder",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/13/ex-gang-leader-gets-40-years-to-life-for-rapper-tupac-shakurs-1996-murder?traffic_source=rss",
+        "published_at": "2026-10-13T23:42:57+00:00",
+        "checked_at": "2026-10-14T02:06:01.162959+00:00",
+        "corroboration": {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c60rln2jvv2zo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-10-13T19:51:14+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Vatican confirms Pope Leo’s surgery was successful",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/vatican-confirms-pope-leos-surgery-was-successful?traffic_source=rss",
+        "published_at": "2026-10-13T21:05:07+00:00",
+        "checked_at": "2026-10-14T02:06:01.162959+00:00",
+        "corroboration": {
+          "source": "DW",
+          "url": "https://www.dw.com/en/vatican-confirms-pope-leo-underwent-surgery-for-lung-cancer/a-79647264?maca=en-rss-en-all-1573-rdf",
+          "published_at": "2026-10-13T19:50:00+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }
     ],
     "ai": [
       {
-        "title": "Just 5 years in, interactive chatbot platform Character.AI files for bankruptcy",
-        "source": "TechCrunch",
-        "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-        "published_at": "2026-10-13T12:23:42+00:00",
-        "checked_at": "2026-10-13T14:05:28.982577+00:00",
+        "title": "Google wants to host your personal vibe-coded apps in the Play Store",
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
+        "published_at": "2026-10-13T17:00:39+00:00",
+        "checked_at": "2026-10-14T02:06:01.162959+00:00",
         "corroboration": {
           "source": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
-          "published_at": "2026-10-13T10:32:23+00:00"
+          "url": "https://www.theverge.com/tech/1009066/google-play-vibe-coded-android-apps-launch",
+          "published_at": "2026-10-13T16:47:06+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }
