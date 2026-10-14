@@ -83,6 +83,15 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .notes-list { display: grid; gap: 12px; }
 .note-link { display: grid; gap: 2px; }
 .note-link small { color: var(--soft); font-size: 11px; font-weight: 400; }
+.transcript-list { display: grid; border-top: 1px solid var(--line); }
+.transcript-card { padding: 21px 0 24px; border-bottom: 1px solid var(--line); }
+.transcript-title { margin: 0 0 7px; font-size: 19px; font-weight: 650; line-height: 1.5; }
+.transcript-title a { text-decoration: none; }
+.transcript-title a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 4px; }
+.transcript-description { margin: 0 0 10px; color: var(--muted); font-size: 13px; }
+.transcript-links, .article-actions { display: flex; flex-wrap: wrap; gap: 8px 22px; }
+.transcript-links a, .article-actions a { color: var(--accent); font-size: 13px; font-weight: 650; text-decoration: none; }
+.transcript-links a:hover, .article-actions a:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 .site-footer { border-top: 1px solid var(--line); background: var(--surface); }
 .footer-inner { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; padding-block: 25px; color: var(--muted); font-size: 12px; }
@@ -93,16 +102,17 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .back-link { color: var(--accent); font-size: 12px; text-decoration: none; }
 .back-link:hover { text-decoration: underline; }
 .article-header { padding: 47px 0 34px; border-bottom: 1px solid var(--line); }
-.article-header h1 { font-size: clamp(39px, 5vw, 57px); }
+.article-header h1 { font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: clamp(29px, 3.6vw, 38px); font-weight: 650; letter-spacing: -.015em; line-height: 1.4; }
 .article-header p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.8; }
 .article-header .edition-meta { margin-top: 19px; }
+.article-actions { margin-top: 16px; }
 .article-sidebar { padding-top: 48px; }
-.article-toc { display: grid; gap: 11px; }
+.article-toc { display: grid; gap: 11px; max-height: 66vh; overflow-y: auto; }
 .article-toc a { color: var(--muted); font-size: 13px; text-decoration: none; }
 .article-toc a:hover { color: var(--accent); text-decoration: underline; }
 
-.prose { color: var(--ink); font-size: 16px; line-height: 1.88; overflow-wrap: break-word; }
-.prose h2, .prose h3 { scroll-margin-top: 24px; font-family: Georgia, "Noto Serif SC", serif; line-height: 1.35; }
+.prose { color: var(--ink); font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; font-size: 16px; line-height: 1.8; overflow-wrap: break-word; }
+.prose h2, .prose h3 { scroll-margin-top: 24px; font-family: inherit; line-height: 1.4; }
 .prose h2 { margin: 48px 0 17px; padding-top: 28px; border-top: 1px solid var(--line); font-size: 27px; }
 .prose h3 { margin: 32px 0 12px; font-size: 21px; }
 .prose p, .prose ul, .prose ol, .prose blockquote, .prose table { margin: 0 0 21px; }
@@ -119,6 +129,10 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .prose th, .prose td { padding: 9px 15px; border: 1px solid var(--line); text-align: left; }
 .prose th { background: #f1f4f1; }
 .prose hr { height: 1px; margin: 32px 0; border: 0; background: var(--line); }
+.prose .transcript-time { display: flex; flex-wrap: wrap; align-items: baseline; gap: 7px 18px; margin: 36px 0 15px; padding-top: 22px; font-size: 18px; font-variant-numeric: tabular-nums; }
+.transcript-time a { color: var(--accent); font-size: 12px; font-weight: 500; text-decoration: none; }
+.transcript-time a:hover { text-decoration: underline; }
+.is-transcript p { margin-bottom: 24px; }
 
 .chart { margin: 28px 0 32px; padding: 20px 22px 17px; border: 1px solid var(--line); border-radius: 4px; background: var(--surface); }
 .chart-title { margin: 0 0 4px; font-size: 16px; font-weight: 690; }
@@ -146,7 +160,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   .sidebar { grid-template-columns: 1fr; }
   .side-block + .side-block { margin-top: 4px; }
   .article-header { padding-top: 36px; }
-  .prose { font-size: 15px; }
+  .prose { font-size: 16px; }
   .chart { padding: 15px 12px; }
 }
 @media (prefers-reduced-motion: reduce) {

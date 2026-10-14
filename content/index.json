@@ -5,5 +5,43 @@
     "description": "来源、核查边界，以及 Markdown 图表的用法",
     "date": "2026-10-13",
     "read_minutes": 3
+  },
+  {
+    "slug": "transcript-sun-yuchen-ai-opportunities",
+    "title": "邵艾伦 × 孙宇晨：年轻人如何抓住 AI 时代的机会？（快速导读）",
+    "description": "人工整理的导读 · 视频时长 4 小时 22 分钟",
+    "date": "2026-10-14",
+    "type": "transcript",
+    "source": "https://www.bilibili.com/video/BV1oSp46AECR/",
+    "video_id": "BV1oSp46AECR",
+    "transcript_slug": "transcript-sun-yuchen-ai-opportunities-full"
+  },
+  {
+    "slug": "transcript-sun-yuchen-ai-opportunities-full",
+    "title": "邵艾伦 × 孙宇晨：年轻人如何抓住 AI 时代的机会？（完整文字稿）",
+    "description": "语音识别整理稿 · 视频时长 4 小时 22 分钟",
+    "date": "2026-10-14",
+    "type": "transcript",
+    "source": "https://www.bilibili.com/video/BV1oSp46AECR/",
+    "video_id": "BV1oSp46AECR",
+    "hide_from_list": true
+  },
+  {
+    "slug": "transcript-cz-hong-kong-ama",
+    "title": "CZ 香港 AMA：年轻人不要把一夜暴富当目标（完整文字稿）",
+    "description": "语音识别整理稿 · 视频时长 53 分钟",
+    "date": "2026-10-14",
+    "type": "transcript",
+    "source": "https://www.bilibili.com/video/BV196tK67Ebb/",
+    "video_id": "BV196tK67Ebb"
+  },
+  {
+    "slug": "transcript-cheng-hongning-contrarian-investing",
+    "title": "抄底拼多多，A轮入宁德：程泓宁的逆向投资之路（完整文字稿）",
+    "description": "语音识别整理稿 · 视频时长 25 分钟",
+    "date": "2026-10-14",
+    "type": "transcript",
+    "source": "https://www.bilibili.com/video/BV1wXYQ6vE52/",
+    "video_id": "BV1wXYQ6vE52"
   }
 ]

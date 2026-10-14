@@ -3,6 +3,7 @@ const summaryElement = document.querySelector("#article-summary");
 const metaElement = document.querySelector("#article-meta");
 const bodyElement = document.querySelector("#article-body");
 const noticeElement = document.querySelector("#article-notice");
+const actionsElement = document.querySelector("#article-actions");
 
 async function fetchJson(path) {
   const response = await fetch(path, {cache: "no-store"});
@@ -17,11 +18,29 @@ function renderContents() {
     heading.id = `section-${index + 1}`;
     const link = document.createElement("a");
     link.href = `#${heading.id}`;
-    link.textContent = heading.textContent;
+    link.textContent = heading.classList.contains("transcript-time") ? heading.firstChild.textContent : heading.textContent;
     if (heading.tagName === "H3") link.style.paddingLeft = "12px";
     toc.append(link);
   });
   if (!toc.childElementCount) toc.textContent = "暂无章节";
+}
+
+function renderTimestamps(sourceUrl) {
+  bodyElement.querySelectorAll("p").forEach(paragraph => {
+    const match = /^\[(\d{2}):(\d{2}):(\d{2})\]$/.exec(paragraph.textContent.trim());
+    if (!match) return;
+    const seconds = Number(match[1]) * 3600 + Number(match[2]) * 60 + Number(match[3]);
+    const heading = document.createElement("h2");
+    heading.className = "transcript-time";
+    heading.append(document.createTextNode(`${match[1]}:${match[2]}:${match[3]}`));
+    const link = document.createElement("a");
+    link.href = `${sourceUrl}?t=${seconds}`;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+    link.textContent = "在原视频查看 ↗";
+    heading.append(link);
+    paragraph.replaceWith(heading);
+  });
 }
 
 function renderCharts(latest) {
@@ -67,17 +86,48 @@ async function initArticle() {
   titleElement.textContent = note.title;
   summaryElement.textContent = note.description;
   metaElement.replaceChildren();
-  for (const value of [note.date, note.read_minutes ? `约 ${note.read_minutes} 分钟阅读` : ""]) {
+  const isTranscript = note.type === "transcript";
+  bodyElement.classList.toggle("is-transcript", isTranscript);
+  for (const value of [isTranscript ? `整理于 ${note.date}` : note.date, note.read_minutes ? `约 ${note.read_minutes} 分钟阅读` : ""]) {
     if (value) {
       const span = document.createElement("span");
       span.textContent = value;
       metaElement.append(span);
     }
   }
+  actionsElement.replaceChildren();
+  if (isTranscript) {
+    document.querySelector("#article-kicker").textContent = "VIDEO TRANSCRIPT";
+    document.querySelector("#article-back").href = "./#transcripts";
+    document.querySelector("#article-back").textContent = "← 返回视频文稿";
+    document.querySelector("#notes-nav").removeAttribute("aria-current");
+    document.querySelector("#transcript-nav").setAttribute("aria-current", "page");
+    const source = document.createElement("a");
+    source.href = note.source;
+    source.target = "_blank";
+    source.rel = "noopener noreferrer";
+    source.textContent = "查看原视频 ↗";
+    actionsElement.append(source);
+    if (note.transcript_slug) {
+      const full = document.createElement("a");
+      full.href = `article.html?slug=${encodeURIComponent(note.transcript_slug)}`;
+      full.textContent = "阅读完整文字稿 →";
+      actionsElement.append(full);
+    }
+    noticeElement.textContent = "此页是视频语音转写或人工导读，未逐项核查嘉宾说法。转写可能有同音字、专名和数字错误；关键内容请对照原视频。";
+    noticeElement.hidden = false;
+    document.querySelector("#article-side-kicker").textContent = "TRANSCRIPT NOTE";
+    document.querySelector("#article-side-title").textContent = "关于这份文稿";
+    document.querySelector("#article-side-text").textContent = "页面保留原视频入口和时间轴。嘉宾观点不代表本站核实的事实，也不属于每日新闻简报。";
+  }
   document.title = `${note.title} · 每日资讯`;
 
   const md = window.markdownit({html: false, linkify: true, typographer: true});
   bodyElement.innerHTML = md.render(source);
+  if (isTranscript) {
+    if (bodyElement.firstElementChild?.tagName === "H1") bodyElement.firstElementChild.remove();
+    renderTimestamps(note.source.replace(/\/?$/, "/"));
+  }
   markExternalLinks();
   renderCharts(latest);
   renderContents();

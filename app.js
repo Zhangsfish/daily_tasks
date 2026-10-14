@@ -88,22 +88,51 @@ async function loadEdition(path) {
 
 async function loadNotes() {
   const root = document.querySelector("#notes-list");
+  const transcriptsRoot = document.querySelector("#transcript-list");
   try {
     const response = await fetch("content/index.json", {cache: "no-store"});
     if (!response.ok) throw new Error();
     const notes = await response.json();
     if (!Array.isArray(notes)) throw new Error();
     root.replaceChildren();
+    transcriptsRoot.replaceChildren();
     for (const note of notes) {
       if (!/^[a-z0-9-]+$/.test(note.slug)) continue;
+      if (note.type === "transcript") {
+        if (note.hide_from_list) continue;
+        const card = el("article", "transcript-card");
+        const title = el("h3", "transcript-title");
+        const link = el("a", "", note.title);
+        link.href = `article.html?slug=${encodeURIComponent(note.slug)}`;
+        title.append(link);
+        card.append(title, el("p", "transcript-description", note.description));
+        const links = el("div", "transcript-links");
+        if (note.transcript_slug && /^[a-z0-9-]+$/.test(note.transcript_slug)) {
+          const full = el("a", "", "阅读完整稿 →");
+          full.href = `article.html?slug=${encodeURIComponent(note.transcript_slug)}`;
+          links.append(full);
+        }
+        if (typeof note.source === "string" && note.source.startsWith("https://www.bilibili.com/video/")) {
+          const source = el("a", "", "原视频 ↗");
+          source.href = note.source;
+          source.target = "_blank";
+          source.rel = "noopener noreferrer";
+          links.append(source);
+        }
+        card.append(links);
+        transcriptsRoot.append(card);
+        continue;
+      }
       const link = el("a", "note-link", note.title);
       link.href = `article.html?slug=${encodeURIComponent(note.slug)}`;
       link.append(el("small", "", note.description));
       root.append(link);
     }
     if (!root.childElementCount) root.append(el("span", "side-note", "暂无阅读笔记。"));
+    if (!transcriptsRoot.childElementCount) transcriptsRoot.append(el("p", "empty", "暂无视频文稿。"));
   } catch {
     root.replaceChildren(el("span", "side-note", "阅读笔记暂时无法载入。"));
+    transcriptsRoot.replaceChildren(el("p", "empty", "视频文稿暂时无法载入。"));
   }
 }
 

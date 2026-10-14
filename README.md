@@ -19,6 +19,18 @@ python3 -m http.server 8000
 
 界面研究参考了 [Simon Willison 的开源博客](https://github.com/simonw/simonwillisonblog) 的日期与来源组织、[Hugo PaperMod](https://github.com/adityatelange/hugo-PaperMod) 的窄正文阅读布局，以及 [Tailwind Next.js Starter Blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) 的 Markdown 长文和目录体验。本站的 HTML、CSS 与图表代码是针对新闻阅读重新编写的。
 
+## 视频文稿交接
+
+首页的「视频文稿」与每日新闻分开。当前发布了三条视频的阅读稿，其中孙宇晨访谈另有一篇快速导读。正文使用接近 ChatGPT 网页阅读区的系统无衬线字体、16px 字号与宽松行距，桌面和手机保持相同字号。文稿保留原视频链接和时间轴；嘉宾观点未经本站逐项核实，语音转写可能有同音字、专名或数字错误。
+
+交接源是私有仓库 `Zhangsfish/video-transcript-library` 的 `index.json`，本次导入源提交为 `52a2d30caa9d027967f23abcf60bad30c6827962`。网站只发布索引指向的 `primary_markdown` 和 `transcript_markdown`；`raw.srt` 与 `info.json` 留在私有仓库。要在新的、**已有只读权限的**云端会话更新文稿，可先检出源仓库，再执行：
+
+```sh
+python3 scripts/import_transcripts.py /path/to/video-transcript-library
+```
+
+脚本会核对索引、来源和元数据，整体通过后更新 `content/index.json` 与公开 Markdown；从源索引移除的文稿也会从本站移除。不要把私有仓库的访问令牌、Deploy Key 或整个仓库放入此公开站点。此交接目前由有权限的会话执行，未配置跨仓库自动同步。
+
 ## 自动更新与发布
 
 `.github/workflows/daily.yml` 每天北京时间 07:30（UTC 23:30）运行，也可以手动触发；采集代码或工作流变更时也运行一次。采集成功且两个栏目都有经交叉核查的条目时，工作流才更新 `data/latest.json`、`archive/YYYY-MM-DD.json` 和 `archive/index.json`，随后提交至 `main`，并在同一工作流部署 Pages。采集或核查失败时以非零状态退出，不修改数据文件，也不部署。
