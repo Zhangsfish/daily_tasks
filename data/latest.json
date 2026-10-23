@@ -1,59 +1,72 @@
 {
-  "date": "2026-10-15",
-  "generated_at": "2026-10-15T01:43:18.422570+00:00",
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T01:48:14.527934+00:00",
   "sections": {
     "global": [
       {
-        "title": "World’s oldest shipwreck found off coast of Turkiye",
+        "title": "Trump ordered to answer questions under oath in BBC lawsuit",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cmy0ryjx7741o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-23T01:38:44+00:00",
+        "checked_at": "2026-10-23T01:48:14.527934+00:00",
+        "corroboration": {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/22/trump-ordered-to-sit-for-deposition-in-bbc-defamation-lawsuit?traffic_source=rss",
+          "published_at": "2026-10-22T21:20:32+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Thousands protest across Poland for access to free and legal abortions",
         "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/14/worlds-oldest-shipwreck-found-off-coast-of-turkiye?traffic_source=rss",
-        "published_at": "2026-10-14T20:33:20+00:00",
-        "checked_at": "2026-10-15T01:43:18.422570+00:00",
+        "url": "https://www.aljazeera.com/news/2026/10/23/thousands-protest-across-poland-for-access-to-free-and-legal-abortions?traffic_source=rss",
+        "published_at": "2026-10-23T00:54:51+00:00",
+        "checked_at": "2026-10-23T01:48:14.527934+00:00",
         "corroboration": {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-10-14T05:00:35+00:00"
+          "source": "DW",
+          "url": "https://www.dw.com/en/poland-thousands-protest-for-more-abortion-rights/a-79737572?maca=en-rss-en-all-1573-rdf",
+          "published_at": "2026-10-22T20:52:00+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "How Trump's diesel deal with Russia will impact the United States and Ukraine",
-        "source": "DW",
-        "url": "https://www.dw.com/en/how-trump-s-diesel-deal-with-russia-will-impact-the-united-states-and-ukraine/a-79658596?maca=en-rss-en-all-1573-rdf",
-        "published_at": "2026-10-14T17:55:00+00:00",
-        "checked_at": "2026-10-15T01:43:18.422570+00:00",
+        "title": "Massive student-led rally marches in Belgrade ahead of Serbian election",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/oct/23/serbia-election-student-list-rally-belgrade-aleksandar-vucic",
+        "published_at": "2026-10-23T00:22:56+00:00",
+        "checked_at": "2026-10-23T01:48:14.527934+00:00",
         "corroboration": {
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/10/13/nx-s1-6000118/how-will-a-diesel-deal-with-russia-impact-the-u-s-market",
-          "published_at": "2026-10-13T20:03:37+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/22/thousands-gather-at-final-student-led-rally-ahead-of-serbia-election?traffic_source=rss",
+          "published_at": "2026-10-22T20:21:12+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "Ukraine and the US: What's next after Trump's diesel deal with Russia?",
-        "source": "DW",
-        "url": "https://www.dw.com/en/ukraine-and-the-us-what-s-next-after-trump-s-diesel-deal-with-russia/a-79650785?maca=en-rss-en-all-1573-rdf",
-        "published_at": "2026-10-13T18:51:00+00:00",
-        "checked_at": "2026-10-15T01:43:18.422570+00:00",
+        "title": "Almost all shallow-water coral reefs now face extinction risk, study warns",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/10/22/almost-all-shallow-water-coral-reefs-now-face-extinction-risk-study-warns?traffic_source=rss",
+        "published_at": "2026-10-22T23:32:13+00:00",
+        "checked_at": "2026-10-23T01:48:14.527934+00:00",
         "corroboration": {
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/10/13/nx-s1-5998764/trumps-diesel-deal-with-putin-angers-europe",
-          "published_at": "2026-10-13T08:44:19+00:00"
+          "source": "DW",
+          "url": "https://www.dw.com/en/96-of-world-s-coral-reefs-face-critical-risk-of-collapse-iucn-warns/a-79736234?maca=en-rss-en-all-1573-rdf",
+          "published_at": "2026-10-22T18:18:00+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }
     ],
     "ai": [
       {
-        "title": "YouTube sticks new labels on AI-generated songs",
+        "title": "Canva’s first AI image model plans designs before generating them",
         "source": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1011369/youtube-music-ai-label",
-        "published_at": "2026-10-14T18:25:04+00:00",
-        "checked_at": "2026-10-15T01:43:18.422570+00:00",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+        "published_at": "2026-10-22T21:53:22+00:00",
+        "checked_at": "2026-10-23T01:48:14.527934+00:00",
         "corroboration": {
           "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
-          "published_at": "2026-10-14T18:23:46+00:00"
+          "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+          "published_at": "2026-10-22T19:00:00+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }
