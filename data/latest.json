@@ -1,72 +1,72 @@
 {
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28T02:32:06.419057+00:00",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T02:43:06.227518+00:00",
   "sections": {
     "global": [
       {
-        "title": "Egypt orders closure of independent news site Mada Masr",
-        "source": "DW",
-        "url": "https://www.dw.com/en/egypt-orders-closure-of-independent-news-site-mada-masr/a-79781842?maca=en-rss-en-all-1573-rdf",
-        "published_at": "2026-10-27T23:16:00+00:00",
-        "checked_at": "2026-10-28T02:32:06.419057+00:00",
+        "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-29T01:14:01+00:00",
+        "checked_at": "2026-10-29T02:43:06.227518+00:00",
         "corroboration": {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/10/27/egypt-orders-closure-of-leading-independent-news-site-mada-masr?traffic_source=rss",
-          "published_at": "2026-10-27T20:35:18+00:00"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
+          "published_at": "2026-10-28T22:06:46+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "Israel election results: No clear winner projected, what’s next?",
+        "title": "No clear winner in Israel election with nearly 90 percent of votes counted",
         "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/10/27/no-clear-mandate-projected-in-israel-election-whats-next?traffic_source=rss",
-        "published_at": "2026-10-27T23:06:47+00:00",
-        "checked_at": "2026-10-28T02:32:06.419057+00:00",
+        "url": "https://www.aljazeera.com/news/2026/10/29/no-clear-winner-in-israeli-election-with-nearly-90-percent-of-votes-counted?traffic_source=rss",
+        "published_at": "2026-10-29T00:01:07+00:00",
+        "checked_at": "2026-10-29T02:43:06.227518+00:00",
         "corroboration": {
           "source": "DW",
-          "url": "https://www.dw.com/en/israel-election-exit-polls-show-no-clear-winner-with-netanyahu-s-fate-unclear/live-79713839?maca=en-rss-en-all-1573-rdf",
-          "published_at": "2026-10-27T20:21:00+00:00"
+          "url": "https://www.dw.com/en/israel-election-netanyahu-led-bloc-in-slight-lead-with-more-than-80-of-votes-counted/live-79713839?maca=en-rss-en-all-1573-rdf",
+          "published_at": "2026-10-28T12:55:00+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "Flavio Bolsonaro flees Brazil for US amid investigation — reports",
-        "source": "DW",
-        "url": "https://www.dw.com/en/flavio-bolsonaro-flees-brazil-for-us-amid-investigation-reports/a-79781094?maca=en-rss-en-all-1573-rdf",
-        "published_at": "2026-10-27T22:18:00+00:00",
-        "checked_at": "2026-10-28T02:32:06.419057+00:00",
-        "corroboration": {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/27/flavio-bolsonaro-brazil-argentina-fled",
-          "published_at": "2026-10-27T22:03:00+00:00"
-        },
-        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
-      },
-      {
-        "title": "Norway and Finland leaders hold rare call with Putin",
+        "title": "High-speed train crash kills at least 68 people in Spain",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-10-27T18:28:23+00:00",
-        "checked_at": "2026-10-28T02:32:06.419057+00:00",
+        "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-28T21:38:54+00:00",
+        "checked_at": "2026-10-29T02:43:06.227518+00:00",
         "corroboration": {
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/oct/27/oleshky-truce-ukraine-russia-putin",
-          "published_at": "2026-10-27T17:43:02+00:00"
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/10/28/nx-s1-6020217/spain-train-disaster",
+          "published_at": "2026-10-28T10:09:46+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/ck5ynj4eeyj2o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-10-28T10:17:54+00:00",
+        "checked_at": "2026-10-29T02:43:06.227518+00:00",
+        "corroboration": {
+          "source": "DW",
+          "url": "https://www.dw.com/en/serbian-police-shoot-dead-assailant-at-israeli-embassy/a-79782905?maca=en-rss-en-all-1573-rdf",
+          "published_at": "2026-10-28T08:48:00+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }
     ],
     "ai": [
       {
-        "title": "Google’s Genie 4 world model adds audio, more realistic worlds, and real-time steering",
+        "title": "Chrome’s AI-powered Autofill can now dig through your Gmail to fill out forms",
         "source": "TechCrunch",
-        "url": "https://techcrunch.com/2026/10/27/googles-genie-4-world-model-adds-audio-more-realistic-worlds-and-real-time-steering/",
-        "published_at": "2026-10-27T16:30:57+00:00",
-        "checked_at": "2026-10-28T02:32:06.419057+00:00",
+        "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+        "published_at": "2026-10-28T17:00:00+00:00",
+        "checked_at": "2026-10-29T02:43:06.227518+00:00",
         "corroboration": {
           "source": "The Verge",
-          "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
-          "published_at": "2026-10-27T15:07:35+00:00"
+          "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+          "published_at": "2026-10-28T16:32:41+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }
