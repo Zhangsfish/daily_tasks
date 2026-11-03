@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T03:59:22.517836+00:00",
+  "sections": {
+    "global": [
+      {
+        "title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-03T03:32:36+00:00",
+        "checked_at": "2026-11-03T03:59:22.517836+00:00",
+        "corroboration": {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/2/trump-asks-supreme-court-to-block-20000-california-ballots-before-midterms?traffic_source=rss",
+          "published_at": "2026-11-02T19:06:52+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Man and boy arrested after allegedly attacking One Nation volunteer with bat",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cwly3jd27m9xo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-03T03:30:16+00:00",
+        "checked_at": "2026-11-03T03:59:22.517836+00:00",
+        "corroboration": {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/03/one-nation-volunteer-alleged-attack-assault-torquay-victoria-ntwnfb",
+          "published_at": "2026-11-03T01:09:34+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "US reportedly strikes Iran’s Qeshm Island as Vance voices optimism about a deal",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/nov/03/us-strikes-irans-qeshm-island",
+        "published_at": "2026-11-03T03:18:36+00:00",
+        "checked_at": "2026-11-03T03:59:22.517836+00:00",
+        "corroboration": {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/3/explosions-hit-irans-qeshm-island-as-us-media-report-us-strikes-in-hormuz?traffic_source=rss",
+          "published_at": "2026-11-03T02:25:02+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Trump to remove Rwanda and South Africa from US trade deal",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c9j346xg0mkvo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-03T03:00:36+00:00",
+        "checked_at": "2026-11-03T03:59:22.517836+00:00",
+        "corroboration": {
+          "source": "DW",
+          "url": "https://www.dw.com/en/us-to-drop-south-africa-rwanda-from-duty-free-trade-initiative/a-79834508?maca=en-rss-en-all-1573-rdf",
+          "published_at": "2026-11-02T21:40:00+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ],
+    "ai": [
+      {
+        "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+        "source": "The Verge",
+        "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+        "published_at": "2026-11-02T23:20:01+00:00",
+        "checked_at": "2026-11-03T03:59:22.517836+00:00",
+        "corroboration": {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+          "published_at": "2026-11-02T19:19:17+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ]
+  }
+}
