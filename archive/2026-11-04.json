@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T03:08:17.302802+00:00",
+  "sections": {
+    "global": [
+      {
+        "title": "Seven flights across Europe targeted by suspected bomb threats",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/seven-flights-across-europe-targeted-by-suspected-bomb-threats?traffic_source=rss",
+        "published_at": "2026-11-04T02:36:18+00:00",
+        "checked_at": "2026-11-04T03:08:17.302802+00:00",
+        "corroboration": {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-03T20:42:47+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Scepticism as Trump says he’s ending Israel’s $3.8 bn military aid deal",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/scepticism-as-trump-says-hes-ending-israels-3-8-bn-military-aid-deal?traffic_source=rss",
+        "published_at": "2026-11-04T01:13:49+00:00",
+        "checked_at": "2026-11-04T03:08:17.302802+00:00",
+        "corroboration": {
+          "source": "DW",
+          "url": "https://www.dw.com/en/us-to-cut-nearly-4-billion-in-israel-military-aid-trump-says/a-79848860?maca=en-rss-en-all-1573-rdf",
+          "published_at": "2026-11-04T00:21:00+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Spanish transport minister resigns days after deadly train crash",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c6wydqd4yxdyo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-03T22:45:59+00:00",
+        "checked_at": "2026-11-04T03:08:17.302802+00:00",
+        "corroboration": {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/03/spain-transport-minister-oscar-puente-resigns-deadly-train-crash",
+          "published_at": "2026-11-03T21:46:02+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Europe on alert after supermarket freezers hit by cyber-attacks in 10 countries",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cwy8lm1m59mvo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-03T13:55:47+00:00",
+        "checked_at": "2026-11-04T03:08:17.302802+00:00",
+        "corroboration": {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/nov/03/uk-meat-processing-firms-fridges-heat-up-cyber-attacks",
+          "published_at": "2026-11-03T17:28:49+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ],
+    "ai": [
+      {
+        "title": "Google will let schools skip AI tools, but they have to give up search, too",
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+        "published_at": "2026-11-03T17:54:43+00:00",
+        "checked_at": "2026-11-04T03:08:17.302802+00:00",
+        "corroboration": {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+          "published_at": "2026-11-03T16:30:34+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ]
+  }
+}
