@@ -1,72 +1,72 @@
 {
-  "date": "2026-11-09",
-  "generated_at": "2026-11-09T02:54:46.487473+00:00",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T04:44:35.224022+00:00",
   "sections": {
     "global": [
       {
-        "title": "Trump says he was ‘only kidding’ about making UFC’s Dana White next press secretary",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/us-news/2026/nov/08/trump-dana-white-press-secretary",
-        "published_at": "2026-11-09T01:10:55+00:00",
-        "checked_at": "2026-11-09T02:54:46.487473+00:00",
+        "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-10T03:58:13+00:00",
+        "checked_at": "2026-11-10T04:44:35.224022+00:00",
         "corroboration": {
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/8/why-trump-wants-ufc-chief-dana-white-as-his-new-white-house-press-secretary?traffic_source=rss",
-          "published_at": "2026-11-08T22:03:54+00:00"
+          "url": "https://www.aljazeera.com/economy/2026/11/10/trump-says-fbi-probing-nvidia-ceos-affair-with-alleged-spy?traffic_source=rss",
+          "published_at": "2026-11-10T00:44:28+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
-        "published_at": "2026-11-09T00:25:28+00:00",
-        "checked_at": "2026-11-09T02:54:46.487473+00:00",
+        "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-10T01:38:49+00:00",
+        "checked_at": "2026-11-10T04:44:35.224022+00:00",
         "corroboration": {
           "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair?traffic_source=rss",
-          "published_at": "2026-11-08T22:16:10+00:00"
+          "url": "https://www.aljazeera.com/news/2026/11/9/us-congressman-files-resolution-to-impeach-defence-secretary-pete-hegseth?traffic_source=rss",
+          "published_at": "2026-11-09T23:53:03+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "Chancellor Merz to nominate Aigner as Germany’s first woman president",
+        "title": "France blames Iran for October supermarket cyberattack",
         "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/8/chancellor-merz-to-nominate-aigner-as-germanys-first-woman-president?traffic_source=rss",
-        "published_at": "2026-11-08T23:39:47+00:00",
-        "checked_at": "2026-11-09T02:54:46.487473+00:00",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
+        "published_at": "2026-11-10T01:01:47+00:00",
+        "checked_at": "2026-11-10T04:44:35.224022+00:00",
         "corroboration": {
-          "source": "DW",
-          "url": "https://www.dw.com/en/germany-chancellor-merz-to-nominate-aigner-for-president/live-79883533?maca=en-rss-en-all-1573-rdf",
-          "published_at": "2026-11-08T19:43:00+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-09T20:20:08+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "Eisenkot open to Netanyahu joining Israel’s next government",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government?traffic_source=rss",
-        "published_at": "2026-11-08T18:12:27+00:00",
-        "checked_at": "2026-11-09T02:54:46.487473+00:00",
+        "title": "New trilateral talks on Ukraine war in Abu Dhabi: What to expect?",
+        "source": "DW",
+        "url": "https://www.dw.com/en/new-trilateral-talks-on-ukraine-war-in-abu-dhabi-what-to-expect/a-79905734?maca=en-rss-en-all-1573-rdf",
+        "published_at": "2026-11-09T23:46:00+00:00",
+        "checked_at": "2026-11-10T04:44:35.224022+00:00",
         "corroboration": {
-          "source": "DW",
-          "url": "https://www.dw.com/en/israel-eisenkot-officially-tasked-with-forming-a-government/a-79891422?maca=en-rss-en-all-1573-rdf",
-          "published_at": "2026-11-08T15:18:00+00:00"
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
+          "published_at": "2026-11-08T19:25:30+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }
     ],
     "ai": [
       {
-        "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
-        "source": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
-        "published_at": "2026-11-09T02:24:39+00:00",
-        "checked_at": "2026-11-09T02:54:46.487473+00:00",
+        "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+        "published_at": "2026-11-09T19:24:51+00:00",
+        "checked_at": "2026-11-10T04:44:35.224022+00:00",
         "corroboration": {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-          "published_at": "2026-11-08T21:00:11+00:00"
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+          "published_at": "2026-11-09T18:58:38+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }

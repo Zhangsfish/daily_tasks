@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T04:44:35.224022+00:00",
+  "sections": {
+    "global": [
+      {
+        "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-10T03:58:13+00:00",
+        "checked_at": "2026-11-10T04:44:35.224022+00:00",
+        "corroboration": {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/11/10/trump-says-fbi-probing-nvidia-ceos-affair-with-alleged-spy?traffic_source=rss",
+          "published_at": "2026-11-10T00:44:28+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cwr5y58jjp8ro?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-10T01:38:49+00:00",
+        "checked_at": "2026-11-10T04:44:35.224022+00:00",
+        "corroboration": {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/9/us-congressman-files-resolution-to-impeach-defence-secretary-pete-hegseth?traffic_source=rss",
+          "published_at": "2026-11-09T23:53:03+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "France blames Iran for October supermarket cyberattack",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
+        "published_at": "2026-11-10T01:01:47+00:00",
+        "checked_at": "2026-11-10T04:44:35.224022+00:00",
+        "corroboration": {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-09T20:20:08+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "New trilateral talks on Ukraine war in Abu Dhabi: What to expect?",
+        "source": "DW",
+        "url": "https://www.dw.com/en/new-trilateral-talks-on-ukraine-war-in-abu-dhabi-what-to-expect/a-79905734?maca=en-rss-en-all-1573-rdf",
+        "published_at": "2026-11-09T23:46:00+00:00",
+        "checked_at": "2026-11-10T04:44:35.224022+00:00",
+        "corroboration": {
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/11/08/nx-s1-6034014/europe-join-us-brokered-ukraine-talks-abu-dhabi-russia",
+          "published_at": "2026-11-08T19:25:30+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ],
+    "ai": [
+      {
+        "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+        "published_at": "2026-11-09T19:24:51+00:00",
+        "checked_at": "2026-11-10T04:44:35.224022+00:00",
+        "corroboration": {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2",
+          "published_at": "2026-11-09T18:58:38+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ]
+  }
+}
