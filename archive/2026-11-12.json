@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T04:03:42.903799+00:00",
+  "sections": {
+    "global": [
+      {
+        "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-12T04:00:30+00:00",
+        "checked_at": "2026-11-12T04:03:42.903799+00:00",
+        "corroboration": {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/11/scott-colom-mississippi-senate-race",
+          "published_at": "2026-11-12T00:11:12+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Australian teen missing in bush for six days rescued alive",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-12T02:40:18+00:00",
+        "checked_at": "2026-11-12T04:03:42.903799+00:00",
+        "corroboration": {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/12/missing-teenager-walhalla-found-alive-australian-bush",
+          "published_at": "2026-11-12T02:30:28+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Brooklyn building collapse kills at least two people and traps others in wreckage",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/nov/11/deadly-brooklyn-building-collapse",
+        "published_at": "2026-11-12T01:51:00+00:00",
+        "checked_at": "2026-11-12T04:03:42.903799+00:00",
+        "corroboration": {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen?traffic_source=rss",
+          "published_at": "2026-11-12T03:31:08+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Former Italian Red Brigades member escapes house arrest in Argentina",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/12/former-italian-red-brigades-member-escapes-house-arrest-in-argentina?traffic_source=rss",
+        "published_at": "2026-11-12T01:04:28+00:00",
+        "checked_at": "2026-11-12T04:03:42.903799+00:00",
+        "corroboration": {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/c933gn6710lyo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-11T14:56:11+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ],
+    "ai": [
+      {
+        "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+        "source": "The Verge",
+        "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+        "published_at": "2026-11-12T00:55:40+00:00",
+        "checked_at": "2026-11-12T04:03:42.903799+00:00",
+        "corroboration": {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+          "published_at": "2026-11-11T23:28:45+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ]
+  }
+}
