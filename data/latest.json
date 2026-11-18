@@ -1,85 +1,72 @@
 {
-  "date": "2026-11-17",
-  "generated_at": "2026-11-17T05:12:17.081134+00:00",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T04:39:33.337660+00:00",
   "sections": {
     "global": [
       {
-        "title": "United Airlines says ‘widespread’ system outage resolved",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/us-news/2026/nov/16/united-airlines-system-outage",
-        "published_at": "2026-11-17T02:57:06+00:00",
-        "checked_at": "2026-11-17T05:12:17.081134+00:00",
+        "title": "Pakistani man gets 27 years for foiled plot to kill Trump, Biden",
+        "source": "DW",
+        "url": "https://www.dw.com/en/pakistani-man-gets-27-years-for-foiled-plot-to-kill-trump-biden/a-79976086?maca=en-rss-en-all-1573-rdf",
+        "published_at": "2026-11-18T04:03:00+00:00",
+        "checked_at": "2026-11-18T04:39:33.337660+00:00",
         "corroboration": {
-          "source": "DW",
-          "url": "https://www.dw.com/en/united-airlines-resolves-tech-outage-that-delayed-flights/a-79964387?maca=en-rss-en-all-1573-rdf",
-          "published_at": "2026-11-16T23:13:00+00:00"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
+          "published_at": "2026-11-18T00:21:33+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "EU countries announce migrant deportation centre in Rwanda",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/eu-countries-announce-migrant-deportation-centre-in-rwanda?traffic_source=rss",
-        "published_at": "2026-11-17T01:12:28+00:00",
-        "checked_at": "2026-11-17T05:12:17.081134+00:00",
+        "title": "American soldier held in UK suspected of spying for Russia taken into US military custody",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/uk-news/2026/nov/17/american-soldier-brandon-carroll-tyner-spying-us-military-custody",
+        "published_at": "2026-11-18T00:16:07+00:00",
+        "checked_at": "2026-11-18T04:39:33.337660+00:00",
         "corroboration": {
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-16T23:20:45+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-17T22:46:30+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
-        "source": "DW",
-        "url": "https://www.dw.com/en/france-s-philippe-diallo-to-challenge-infantino-for-fifa-presidency/a-79962843?maca=en-rss-en-all-1573-rdf",
-        "published_at": "2026-11-16T20:24:00+00:00",
-        "checked_at": "2026-11-17T05:12:17.081134+00:00",
+        "title": "Russian military plane crash in Siberia kills 19",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/17/russian-military-plane-crash-in-siberia-kills-19?traffic_source=rss",
+        "published_at": "2026-11-17T22:21:16+00:00",
+        "checked_at": "2026-11-18T04:39:33.337660+00:00",
         "corroboration": {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/uefa-backs-diallo-to-challenge-infantino-for-fifa-presidency?traffic_source=rss",
-          "published_at": "2026-11-16T20:20:02+00:00"
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-17T21:06:11+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "Raye, Rosalía and Dolly Parton recognised in Grammy nominations",
+        "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
         "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/cq9vwkggpx73o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-11-16T14:48:55+00:00",
-        "checked_at": "2026-11-17T05:12:17.081134+00:00",
+        "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-17T20:30:20+00:00",
+        "checked_at": "2026-11-18T04:39:33.337660+00:00",
         "corroboration": {
-          "source": "DW",
-          "url": "https://www.dw.com/en/grammy-awards-raye-and-rosalia-lead-nominations/a-79961198?maca=en-rss-en-all-1573-rdf",
-          "published_at": "2026-11-16T18:14:00+00:00"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/nov/17/palestinian-woman-shot-dead-israeli-settlers-near-jericho-witnesses-say",
+          "published_at": "2026-11-17T20:21:48+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }
     ],
     "ai": [
       {
-        "title": "California sues OpenAI over rogue AI hacking incidents",
-        "source": "The Verge",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-        "published_at": "2026-11-16T23:04:02+00:00",
-        "checked_at": "2026-11-17T05:12:17.081134+00:00",
-        "corroboration": {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
-          "published_at": "2026-11-16T20:07:13+00:00"
-        },
-        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
-      },
-      {
-        "title": "Google Maps can now build trip itineraries with real-time details about each stop",
-        "source": "TechCrunch",
-        "url": "https://techcrunch.com/2026/11/16/google-maps-can-now-build-trip-itineraries-with-real-time-details-about-each-stop/",
-        "published_at": "2026-11-16T14:48:13+00:00",
-        "checked_at": "2026-11-17T05:12:17.081134+00:00",
+        "title": "“Trump was in bed with Jensen”: Critics balk at Huang’s wish to return to Nvidia",
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/tech-policy/2026/11/trump-was-in-bed-with-jensen-critics-balk-at-huangs-wish-to-return-to-nvidia/",
+        "published_at": "2026-11-17T20:32:55+00:00",
+        "checked_at": "2026-11-18T04:39:33.337660+00:00",
         "corroboration": {
           "source": "The Verge",
-          "url": "https://www.theverge.com/tech/1034110/google-ask-maps-ai-trip-planning",
-          "published_at": "2026-11-16T14:06:43+00:00"
+          "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+          "published_at": "2026-11-17T17:04:40+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }
