@@ -1,72 +1,85 @@
 {
-  "date": "2026-11-19",
-  "generated_at": "2026-11-19T04:25:42.651059+00:00",
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T04:12:14.913357+00:00",
   "sections": {
     "global": [
       {
-        "title": "Miami court convicts US-Haitian pastor over 2021 assassination of president",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/19/miami-court-convicts-us-haitian-pastor-over-2021-assassination-of-president?traffic_source=rss",
-        "published_at": "2026-11-19T03:58:10+00:00",
-        "checked_at": "2026-11-19T04:25:42.651059+00:00",
+        "title": "Fiona the hippo dies after ingesting knitted hat at Cincinnati zoo",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
+        "published_at": "2026-11-20T03:05:59+00:00",
+        "checked_at": "2026-11-20T04:12:14.913357+00:00",
+        "corroboration": {
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/beloved-hippo-fiona-dies-days-after-swallowing-visitors-hat?traffic_source=rss",
+          "published_at": "2026-11-20T02:51:44+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Cincinnati's famous hippo Fiona dies after eating visitor's hat",
+        "source": "DW",
+        "url": "https://www.dw.com/en/cincinnati-s-famous-hippo-fiona-dies-after-eating-visitor-s-hat/a-79998371?maca=en-rss-en-all-1573-rdf",
+        "published_at": "2026-11-20T01:03:00+00:00",
+        "checked_at": "2026-11-20T04:12:14.913357+00:00",
+        "corroboration": {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-19T23:40:29+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-19T20:07:02+00:00",
+        "checked_at": "2026-11-20T04:12:14.913357+00:00",
         "corroboration": {
           "source": "The Guardian",
-          "url": "https://www.theguardian.com/us-news/2026/nov/18/florida-pastor-guilty-haiti-president-assassination",
-          "published_at": "2026-11-18T22:31:41+00:00"
+          "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
+          "published_at": "2026-11-19T13:52:10+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "Crimean Bridge has been attacked again, Russian official says",
-        "source": "DW",
-        "url": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700?maca=en-rss-en-all-1573-rdf",
-        "published_at": "2026-11-19T03:43:00+00:00",
-        "checked_at": "2026-11-19T04:25:42.651059+00:00",
-        "corroboration": {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-19T01:05:03+00:00"
-        },
-        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
-      },
-      {
-        "title": "APEC Live: Trump, Xi and Putin to meet at historic trilateral China summit",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit?traffic_source=rss",
-        "published_at": "2026-11-19T03:30:26+00:00",
-        "checked_at": "2026-11-19T04:25:42.651059+00:00",
+        "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-19T17:38:22+00:00",
+        "checked_at": "2026-11-20T04:12:14.913357+00:00",
         "corroboration": {
           "source": "DW",
-          "url": "https://www.dw.com/en/apec-summit-xi-trump-and-putin-to-hold-first-ever-trilateral-in-china/live-79964719?maca=en-rss-en-all-1573-rdf",
-          "published_at": "2026-11-18T09:23:00+00:00"
-        },
-        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
-      },
-      {
-        "title": "What do Trump, Putin and Xi want from their Shenzhen meeting?",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting?traffic_source=rss",
-        "published_at": "2026-11-19T02:57:19+00:00",
-        "checked_at": "2026-11-19T04:25:42.651059+00:00",
-        "corroboration": {
-          "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/videos/cqp86k23d84ro?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-18T08:33:32+00:00"
+          "url": "https://www.dw.com/en/apec-summit-trump-xi-putin-talks-end-with-peace-declaration/live-79964719?maca=en-rss-en-all-1573-rdf",
+          "published_at": "2026-11-19T13:05:00+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }
     ],
     "ai": [
       {
-        "title": "Will Wright's next simulation will use AI to mine content from your memories",
-        "source": "Ars Technica",
-        "url": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
-        "published_at": "2026-11-18T18:10:33+00:00",
-        "checked_at": "2026-11-19T04:25:42.651059+00:00",
+        "title": "Meta’s new Muse Charm device may cost $300",
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+        "published_at": "2026-11-19T21:58:06+00:00",
+        "checked_at": "2026-11-20T04:12:14.913357+00:00",
         "corroboration": {
           "source": "The Verge",
-          "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
-          "published_at": "2026-11-18T16:27:13+00:00"
+          "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+          "published_at": "2026-11-19T20:29:21+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Google gives Gemini the ability to use your Mac for you",
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+        "published_at": "2026-11-19T18:09:11+00:00",
+        "checked_at": "2026-11-20T04:12:14.913357+00:00",
+        "corroboration": {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
+          "published_at": "2026-11-19T19:07:41+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }
