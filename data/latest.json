@@ -1,57 +1,57 @@
 {
-  "date": "2026-11-20",
-  "generated_at": "2026-11-20T04:12:14.913357+00:00",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T04:12:20.132245+00:00",
   "sections": {
     "global": [
       {
-        "title": "Fiona the hippo dies after ingesting knitted hat at Cincinnati zoo",
-        "source": "The Guardian",
-        "url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat",
-        "published_at": "2026-11-20T03:05:59+00:00",
-        "checked_at": "2026-11-20T04:12:14.913357+00:00",
-        "corroboration": {
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/beloved-hippo-fiona-dies-days-after-swallowing-visitors-hat?traffic_source=rss",
-          "published_at": "2026-11-20T02:51:44+00:00"
-        },
-        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
-      },
-      {
-        "title": "Cincinnati's famous hippo Fiona dies after eating visitor's hat",
-        "source": "DW",
-        "url": "https://www.dw.com/en/cincinnati-s-famous-hippo-fiona-dies-after-eating-visitor-s-hat/a-79998371?maca=en-rss-en-all-1573-rdf",
-        "published_at": "2026-11-20T01:03:00+00:00",
-        "checked_at": "2026-11-20T04:12:14.913357+00:00",
+        "title": "Three French police officers sentenced over racist assault on Black man",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/21/three-french-police-officers-sentenced-over-racist-assault-on-black-man?traffic_source=rss",
+        "published_at": "2026-11-21T03:01:24+00:00",
+        "checked_at": "2026-11-21T04:12:20.132245+00:00",
         "corroboration": {
           "source": "BBC News",
-          "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
-          "published_at": "2026-11-19T23:40:29+00:00"
+          "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-20T22:37:09+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-11-19T20:07:02+00:00",
-        "checked_at": "2026-11-20T04:12:14.913357+00:00",
+        "title": "Denmark expels Russian diplomat over alleged plot to kill Ukrainian rapper",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper?traffic_source=rss",
+        "published_at": "2026-11-21T01:12:48+00:00",
+        "checked_at": "2026-11-21T04:12:20.132245+00:00",
         "corroboration": {
           "source": "The Guardian",
-          "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
-          "published_at": "2026-11-19T13:52:10+00:00"
+          "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+          "published_at": "2026-11-20T18:16:12+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       },
       {
-        "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-        "source": "BBC News",
-        "url": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
-        "published_at": "2026-11-19T17:38:22+00:00",
-        "checked_at": "2026-11-20T04:12:14.913357+00:00",
+        "title": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
+        "published_at": "2026-11-20T21:47:41+00:00",
+        "checked_at": "2026-11-21T04:12:20.132245+00:00",
         "corroboration": {
-          "source": "DW",
-          "url": "https://www.dw.com/en/apec-summit-trump-xi-putin-talks-end-with-peace-declaration/live-79964719?maca=en-rss-en-all-1573-rdf",
-          "published_at": "2026-11-19T13:05:00+00:00"
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_trump-tax-us-tech-firms-ai-data-centres-abroad-201126?traffic_source=rss",
+          "published_at": "2026-11-20T21:10:53+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Indian man sentenced to 19 years in US Sikh separatist assassination plot",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/20/indian-man-sentenced-to-19-years-in-us-sikh-separatist-assassination-plot?traffic_source=rss",
+        "published_at": "2026-11-20T19:40:07+00:00",
+        "checked_at": "2026-11-21T04:12:20.132245+00:00",
+        "corroboration": {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-20T19:27:49+00:00"
         },
         "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
       }
@@ -62,7 +62,7 @@
         "source": "TechCrunch",
         "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
         "published_at": "2026-11-19T21:58:06+00:00",
-        "checked_at": "2026-11-20T04:12:14.913357+00:00",
+        "checked_at": "2026-11-21T04:12:20.132245+00:00",
         "corroboration": {
           "source": "The Verge",
           "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
@@ -75,7 +75,7 @@
         "source": "TechCrunch",
         "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
         "published_at": "2026-11-19T18:09:11+00:00",
-        "checked_at": "2026-11-20T04:12:14.913357+00:00",
+        "checked_at": "2026-11-21T04:12:20.132245+00:00",
         "corroboration": {
           "source": "The Verge",
           "url": "https://www.theverge.com/tech/1037902/google-gemini-macos-ai-computer-use",
