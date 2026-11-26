@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T05:21:12.164621+00:00",
+  "sections": {
+    "global": [
+      {
+        "title": "Macy's postpones Thanksgiving parade due to severe weather",
+        "source": "BBC News",
+        "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
+        "published_at": "2026-11-26T04:04:14+00:00",
+        "checked_at": "2026-11-26T05:21:12.164621+00:00",
+        "corroboration": {
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/us-news/2026/nov/25/macys-thanksgiving-day-parade-postponed-weather",
+          "published_at": "2026-11-25T21:08:45+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Ukraine attacks Russian military base, says five planes struck",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck?traffic_source=rss",
+        "published_at": "2026-11-26T01:39:46+00:00",
+        "checked_at": "2026-11-26T05:21:12.164621+00:00",
+        "corroboration": {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-25T14:46:41+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Judges recommend prosecutors end corruption case against Netanyahu",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/judges-recommend-prosecutors-end-corruption-case-against-netanyahu?traffic_source=rss",
+        "published_at": "2026-11-26T01:08:43+00:00",
+        "checked_at": "2026-11-26T05:21:12.164621+00:00",
+        "corroboration": {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-25T19:47:39+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+        "source": "The Guardian",
+        "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+        "published_at": "2026-11-26T00:39:10+00:00",
+        "checked_at": "2026-11-26T05:21:12.164621+00:00",
+        "corroboration": {
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
+          "published_at": "2026-11-25T22:18:06+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ],
+    "ai": [
+      {
+        "title": "Amazon is reportedly in talks to end Muse AI shopping block",
+        "source": "The Verge",
+        "url": "https://www.theverge.com/tech/1042071/meta-amazon-muse-ai-shopping-discussions",
+        "published_at": "2026-11-25T14:12:33+00:00",
+        "checked_at": "2026-11-26T05:21:12.164621+00:00",
+        "corroboration": {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+          "published_at": "2026-11-25T14:10:18+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      },
+      {
+        "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+        "published_at": "2026-11-24T17:34:34+00:00",
+        "checked_at": "2026-11-26T05:21:12.164621+00:00",
+        "corroboration": {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/entertainment/1041362/tidal-ai-music-ban",
+          "published_at": "2026-11-24T17:17:09+00:00"
+        },
+        "uncertainty": "两家独立来源的标题与时间相互印证；自动核查未逐项验证正文细节，事件仍可能变化。"
+      }
+    ]
+  }
+}
